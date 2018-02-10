@@ -1,0 +1,33 @@
+package com.ajaxvm.dimensional_anchors.blocks;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+import com.ajaxvm.dimensional_anchors.DimensionalAnchorsMod;
+import com.ajaxvm.dimensional_anchors.utils.NameableThing;
+
+public class BlockBase extends Block {
+
+	public NameableThing name;
+
+	public BlockBase(Material material, String name) {
+		super(material);
+	
+		this.name = new NameableThing(name);
+	
+		setUnlocalizedName(this.name.absName);
+		setRegistryName(DimensionalAnchorsMod.MODID, this.name.baseName);
+
+		this.setCreativeTab(CreativeTabs.MATERIALS);
+	}
+	
+	public void registerItemModel(Item itemBlock) {
+		DimensionalAnchorsMod.proxy.registerItemRenderer(itemBlock, 0, name.baseName);
+	}
+	
+	public Item createItemBlock() {
+		return new ItemBlockBase(this);
+	}
+
+}

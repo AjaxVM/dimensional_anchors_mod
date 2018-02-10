@@ -1,0 +1,16 @@
+[
+{
+  "modid": "dimensional_anchors",
+  "name": "Dimensional Anchors",
+  "description": "Anchor two dimensions together, and allow travel between them.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "{TODO}",
+  "updateUrl": "...",
+  "authorList": ["AjaxVM"],
+  "credits": "AjaxVM and the testers and contributors from the Peaceful Carnage modpack!",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
