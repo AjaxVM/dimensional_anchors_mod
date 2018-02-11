@@ -1,0 +1,12 @@
+{
+    "forge_marker": 1,
+    "variants": {
+        "normal": {
+            "model": "dimensional_anchors:dimensional_anchor"
+        },
+        "inventory": {
+            "model": "dimensional_anchors:dimensional_anchor",
+            "transform": "forge:default-block"
+        }
+    }
+}

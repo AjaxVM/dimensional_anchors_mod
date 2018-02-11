@@ -1,0 +1,542 @@
+{
+    "textures": {
+        "base": "blocks/obsidian",
+        "anchorPoint": "dimensional_anchors:items/ingot_copper",
+        "particle": "blocks/obsidian"
+    },
+    "elements": [
+        {
+            "_partName": "base",
+            "from": [ 0, 0, 0 ],
+            "to": [ 16, 4, 16 ],
+            "faces": {
+                "down": {
+                    "texture": "#base",
+                    "cullface": "down"
+                },
+                "up": {
+                    "texture": "#base"
+                },
+                "north": {
+                    "texture": "#base"
+                },
+                "south": {
+                    "texture": "#base"
+                },
+                "west": {
+                    "texture": "#base"
+                },
+                "east": {
+                    "texture": "#base"
+                }
+            }
+        },
+        {
+            "_partName": "spire",
+            "from": [ 0, 4, 0 ],
+            "to": [ 2, 11, 2 ],
+            "faces": {
+                "down": {
+                    "texture": "#base"
+                },
+                "up": {
+                    "texture": "#base"
+                },
+                "north": {
+                    "texture": "#base"
+                },
+                "south": {
+                    "texture": "#base"
+                },
+                "west": {
+                    "texture": "#base"
+                },
+                "east": {
+                    "texture": "#base"
+                }
+            }
+        },
+        {
+            "_partName": "spire",
+            "from": [ 3, 4, 0 ],
+            "to": [ 4, 13, 1 ],
+            "faces": {
+                "down": {
+                    "texture": "#base"
+                },
+                "up": {
+                    "texture": "#base"
+                },
+                "north": {
+                    "texture": "#base"
+                },
+                "south": {
+                    "texture": "#base"
+                },
+                "west": {
+                    "texture": "#base"
+                },
+                "east": {
+                    "texture": "#base"
+                }
+            }
+        },
+        {
+            "_partName": "spire",
+            "from": [ 5, 4, 0 ],
+            "to": [ 8, 12, 3 ],
+            "faces": {
+                "down": {
+                    "texture": "#base"
+                },
+                "up": {
+                    "texture": "#base"
+                },
+                "north": {
+                    "texture": "#base"
+                },
+                "south": {
+                    "texture": "#base"
+                },
+                "west": {
+                    "texture": "#base"
+                },
+                "east": {
+                    "texture": "#base"
+                }
+            }
+        },
+        {
+            "_partName": "spire",
+            "from": [ 9, 4, 0 ],
+            "to": [ 10, 16, 2 ],
+            "faces": {
+                "down": {
+                    "texture": "#base"
+                },
+                "up": {
+                    "texture": "#base"
+                },
+                "north": {
+                    "texture": "#base"
+                },
+                "south": {
+                    "texture": "#base"
+                },
+                "west": {
+                    "texture": "#base"
+                },
+                "east": {
+                    "texture": "#base"
+                }
+            }
+        },
+        {
+            "_partName": "spire",
+            "from": [ 11, 4, 0 ],
+            "to": [ 12, 11, 1 ],
+            "faces": {
+                "down": {
+                    "texture": "#base"
+                },
+                "up": {
+                    "texture": "#base"
+                },
+                "north": {
+                    "texture": "#base"
+                },
+                "south": {
+                    "texture": "#base"
+                },
+                "west": {
+                    "texture": "#base"
+                },
+                "east": {
+                    "texture": "#base"
+                }
+            }
+        },
+        {
+            "_partName": "spire",
+            "from": [ 13, 4, 0 ],
+            "to": [ 16, 14, 3 ],
+            "faces": {
+                "down": {
+                    "texture": "#base"
+                },
+                "up": {
+                    "texture": "#base"
+                },
+                "north": {
+                    "texture": "#base"
+                },
+                "south": {
+                    "texture": "#base"
+                },
+                "west": {
+                    "texture": "#base"
+                },
+                "east": {
+                    "texture": "#base"
+                }
+            }
+        },
+        {
+            "_partName": "spire",
+            "from": [ 14, 4, 4 ],
+            "to": [ 16, 10, 5 ],
+            "faces": {
+                "down": {
+                    "texture": "#base"
+                },
+                "up": {
+                    "texture": "#base"
+                },
+                "north": {
+                    "texture": "#base"
+                },
+                "south": {
+                    "texture": "#base"
+                },
+                "west": {
+                    "texture": "#base"
+                },
+                "east": {
+                    "texture": "#base"
+                }
+            }
+        },
+        {
+            "_partName": "spire",
+            "from": [ 12, 4, 6 ],
+            "to": [ 16, 15, 10 ],
+            "faces": {
+                "down": {
+                    "texture": "#base"
+                },
+                "up": {
+                    "texture": "#base"
+                },
+                "north": {
+                    "texture": "#base"
+                },
+                "south": {
+                    "texture": "#base"
+                },
+                "west": {
+                    "texture": "#base"
+                },
+                "east": {
+                    "texture": "#base"
+                }
+            }
+        },
+        {
+            "_partName": "spire",
+            "from": [ 14, 4, 11 ],
+            "to": [ 16, 12, 13 ],
+            "faces": {
+                "down": {
+                    "texture": "#base"
+                },
+                "up": {
+                    "texture": "#base"
+                },
+                "north": {
+                    "texture": "#base"
+                },
+                "south": {
+                    "texture": "#base"
+                },
+                "west": {
+                    "texture": "#base"
+                },
+                "east": {
+                    "texture": "#base"
+                }
+            }
+        },
+        {
+            "_partName": "spire",
+            "from": [ 13, 4, 13 ],
+            "to": [ 16, 16, 16 ],
+            "faces": {
+                "down": {
+                    "texture": "#base"
+                },
+                "up": {
+                    "texture": "#base"
+                },
+                "north": {
+                    "texture": "#base"
+                },
+                "south": {
+                    "texture": "#base"
+                },
+                "west": {
+                    "texture": "#base"
+                },
+                "east": {
+                    "texture": "#base"
+                }
+            }
+        },
+        {
+            "_partName": "spire",
+            "from": [ 11, 4, 14 ],
+            "to": [ 12, 14, 16 ],
+            "faces": {
+                "down": {
+                    "texture": "#base"
+                },
+                "up": {
+                    "texture": "#base"
+                },
+                "north": {
+                    "texture": "#base"
+                },
+                "south": {
+                    "texture": "#base"
+                },
+                "west": {
+                    "texture": "#base"
+                },
+                "east": {
+                    "texture": "#base"
+                }
+            }
+        },
+        {
+            "_partName": "spire",
+            "from": [ 8, 4, 14 ],
+            "to": [ 10, 11, 16 ],
+            "faces": {
+                "down": {
+                    "texture": "#base"
+                },
+                "up": {
+                    "texture": "#base"
+                },
+                "north": {
+                    "texture": "#base"
+                },
+                "south": {
+                    "texture": "#base"
+                },
+                "west": {
+                    "texture": "#base"
+                },
+                "east": {
+                    "texture": "#base"
+                }
+            }
+        },
+        {
+            "_partName": "spire",
+            "from": [ 4, 4, 13 ],
+            "to": [ 7, 13, 16 ],
+            "faces": {
+                "down": {
+                    "texture": "#base"
+                },
+                "up": {
+                    "texture": "#base"
+                },
+                "north": {
+                    "texture": "#base"
+                },
+                "south": {
+                    "texture": "#base"
+                },
+                "west": {
+                    "texture": "#base"
+                },
+                "east": {
+                    "texture": "#base"
+                }
+            }
+        },
+        {
+            "_partName": "spire",
+            "from": [ 2, 4, 15 ],
+            "to": [ 3, 10, 16 ],
+            "faces": {
+                "down": {
+                    "texture": "#base"
+                },
+                "up": {
+                    "texture": "#base"
+                },
+                "north": {
+                    "texture": "#base"
+                },
+                "south": {
+                    "texture": "#base"
+                },
+                "west": {
+                    "texture": "#base"
+                },
+                "east": {
+                    "texture": "#base"
+                }
+            }
+        },
+        {
+            "_partName": "spire",
+            "from": [ 0, 4, 14 ],
+            "to": [ 1, 16, 16 ],
+            "faces": {
+                "down": {
+                    "texture": "#base"
+                },
+                "up": {
+                    "texture": "#base"
+                },
+                "north": {
+                    "texture": "#base"
+                },
+                "south": {
+                    "texture": "#base"
+                },
+                "west": {
+                    "texture": "#base"
+                },
+                "east": {
+                    "texture": "#base"
+                }
+            }
+        },
+        {
+            "_partName": "spire",
+            "from": [ 0, 4, 13 ],
+            "to": [ 1, 13, 14 ],
+            "faces": {
+                "down": {
+                    "texture": "#base"
+                },
+                "up": {
+                    "texture": "#base"
+                },
+                "north": {
+                    "texture": "#base"
+                },
+                "south": {
+                    "texture": "#base"
+                },
+                "west": {
+                    "texture": "#base"
+                },
+                "east": {
+                    "texture": "#base"
+                }
+            }
+        },
+        {
+            "_partName": "spire",
+            "from": [ 0, 4, 11 ],
+            "to": [ 1, 12, 12 ],
+            "faces": {
+                "down": {
+                    "texture": "#base"
+                },
+                "up": {
+                    "texture": "#base"
+                },
+                "north": {
+                    "texture": "#base"
+                },
+                "south": {
+                    "texture": "#base"
+                },
+                "west": {
+                    "texture": "#base"
+                },
+                "east": {
+                    "texture": "#base"
+                }
+            }
+        },
+        {
+            "_partName": "spire",
+            "from": [ 0, 4, 8 ],
+            "to": [ 2, 14, 10 ],
+            "faces": {
+                "down": {
+                    "texture": "#base"
+                },
+                "up": {
+                    "texture": "#base"
+                },
+                "north": {
+                    "texture": "#base"
+                },
+                "south": {
+                    "texture": "#base"
+                },
+                "west": {
+                    "texture": "#base"
+                },
+                "east": {
+                    "texture": "#base"
+                }
+            }
+        },
+        {
+            "_partName": "spire",
+            "from": [ 0, 4, 3 ],
+            "to": [ 4, 8, 7 ],
+            "faces": {
+                "down": {
+                    "texture": "#base"
+                },
+                "up": {
+                    "texture": "#base"
+                },
+                "north": {
+                    "texture": "#base"
+                },
+                "south": {
+                    "texture": "#base"
+                },
+                "west": {
+                    "texture": "#base"
+                },
+                "east": {
+                    "texture": "#base"
+                }
+            }
+        },
+        {
+            "_partName": "anchor1",
+            "from": [ 8, 10, 5 ],
+            "to": [ 8, 19, 11 ],
+            "rotation": { "origin": [ 8, 14.5, 8 ], "axis": "x", "angle": 45, "rescale": true },
+            "faces": {
+                "west": {
+                    "texture": "#anchorPoint",
+                    "uv": [1, 1, 14, 14]
+                },
+                "east": {
+                    "texture": "#anchorPoint",
+                    "uv": [1, 1, 14, 14]
+                }
+            }
+        },
+        {
+            "_partName": "anchor2",
+            "from": [ 5, 10, 8 ],
+            "to": [ 11, 19, 8 ],
+            "rotation": { "origin": [ 8, 14.5, 8 ], "axis": "x", "angle": 45, "rescale": true },
+            "faces": {
+                "north": {
+                    "texture": "#anchorPoint",
+                    "uv": [1, 1, 14, 14]
+                },
+                "south": {
+                    "texture": "#anchorPoint",
+                    "uv": [1, 1, 14, 14]
+                }
+            }
+        }
+    ]
+}
