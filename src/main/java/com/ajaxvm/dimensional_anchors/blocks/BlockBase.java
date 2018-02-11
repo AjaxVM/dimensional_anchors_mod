@@ -24,9 +24,9 @@ public class BlockBase extends Block {
 	}
 	
 	public void registerItemModel(Item itemBlock) {
-		// always load normal and "inventory" variants...
 		// todo: does this need to be more flexible?
-		DimensionalAnchorsMod.proxy.registerItemRenderer(itemBlock, 0, "normal");
+		// // always load normal and "inventory" variants...
+		// DimensionalAnchorsMod.proxy.registerItemRenderer(itemBlock, 0, "normal");
 		DimensionalAnchorsMod.proxy.registerItemRenderer(itemBlock, 0, "inventory");
 	}
 	
