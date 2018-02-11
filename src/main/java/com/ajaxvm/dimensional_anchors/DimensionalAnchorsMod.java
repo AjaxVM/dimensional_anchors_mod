@@ -36,7 +36,7 @@ public class DimensionalAnchorsMod {
 		}
 
 		@SubscribeEvent
-		public static void registerItems(ModelRegistryEvent event) {
+		public static void registerModels(ModelRegistryEvent event) {
 			ModItems.registerModels();
 			ModBlocks.registerModels();
 		}

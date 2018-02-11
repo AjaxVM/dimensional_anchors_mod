@@ -514,11 +514,11 @@
             "faces": {
                 "west": {
                     "texture": "#anchorPoint",
-                    "uv": [1, 1, 14, 14]
+                    "uv": [1, 1, 13, 13]
                 },
                 "east": {
                     "texture": "#anchorPoint",
-                    "uv": [1, 1, 14, 14]
+                    "uv": [1, 1, 13, 13]
                 }
             }
         },
@@ -530,11 +530,11 @@
             "faces": {
                 "north": {
                     "texture": "#anchorPoint",
-                    "uv": [1, 1, 14, 14]
+                    "uv": [1, 1, 13, 13]
                 },
                 "south": {
                     "texture": "#anchorPoint",
-                    "uv": [1, 1, 14, 14]
+                    "uv": [1, 1, 13, 13]
                 }
             }
         }

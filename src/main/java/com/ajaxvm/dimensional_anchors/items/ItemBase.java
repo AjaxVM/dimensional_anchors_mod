@@ -28,6 +28,6 @@ public class ItemBase extends Item {
 	}
 
 	public void registerItemModel() {
-		DimensionalAnchorsMod.proxy.registerItemRenderer(this, 0, name.baseName);
+		DimensionalAnchorsMod.proxy.registerItemRenderer(this, 0);
 	}
 }

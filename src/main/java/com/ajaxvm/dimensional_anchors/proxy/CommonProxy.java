@@ -13,6 +13,9 @@ public class CommonProxy {
 		return this.ident == i;
 	}
 
-	public void registerItemRenderer(Item item, int meta, String id) {
+	public void registerItemRenderer(Item item, int meta) {
+	}
+
+	public void registerItemRenderer(Item item, int meta, String variant) {
 	}
 }
